@@ -1,0 +1,936 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    font-family: 'Poppins', normal;
+    scroll-behavior: smooth;
+}
+
+#root, html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    width:100%;
+}
+
+/* CABEÇALHO */
+
+#contentheader {
+    width:90%; 
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header{
+    width:100%;
+    background-color: white;
+    padding:26px 0;
+    position:fixed;
+    top:0;
+
+    
+}
+
+/* MENU */
+
+ul a {
+    color:black;
+    padding:15px;
+}
+
+
+#menu {
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight:500;
+    width: 100%;
+    gap:1rem;
+    list-style:none;
+    
+}
+
+/* BOTÕES */
+
+.botaoheader {
+    background:transparent;
+}
+
+.botaoheader a {
+    display:block;
+    color:#2F70FE;
+    padding: 12px 23px;
+    border: 1px solid #2F70FE;
+
+}
+
+
+
+#btn-mobile {
+    display:none;
+
+}
+
+#dois button {
+    background-color:black;
+    align-self: flex-start;
+    height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    color:white;
+    padding:16px, 25px, 16px, 25px;
+    width: 12vw;
+    
+
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+/* FIM DOS BOTÕES */
+
+/*PRIMEIRA PARTE*/
+
+
+#pedaco-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:33px;
+    background-color: #2F70FE;
+    width: 100%;
+    color:white;
+    margin-top: 5rem;
+}
+
+#um {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:7px;
+}
+
+#dois {
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    margin-bottom:0px;
+    justify-content: space-around;
+ 
+    
+}
+
+#pri{
+    font-size:48px;
+    font-weight: 700;
+    width:47vw;
+    padding-top: 147px;
+    line-height: 65px;
+    text-align: center;
+}
+
+#seg {
+    font-size:16px;
+    font-weight: 400;
+    width:44vw;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/*FIM DA  PRIMEIRA PARTE*/
+
+
+/*sEGUNDA PARTE*/
+
+#pedaco-2 {
+    display: flex;
+    flex-direction: column ;
+    background-color: #00FF8514;
+    gap:30px;
+    padding-bottom:17vh;
+
+}
+
+#tres {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 79px;
+    font-size:40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tres h1 {
+    font-weight: 500;
+    
+}
+
+#quatro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.texticon {
+    padding-top: 24px;
+    height: max-content;
+    line-height: 27px
+}
+
+#quatro .texticon {
+    text-align: center;
+    width:16vw;
+}
+
+/*FIM DA SEGUNDA PARTE*/
+
+/*TERCEIRA PARTE*/
+
+#pedaco-3{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pedaco-3 .tituloz {
+    width: 25vw;
+    
+}
+
+#cinco .texticon {
+    text-align: justify;
+    width:90%;
+}
+
+#cinco {
+    padding:131px;
+    width:30vw;
+}
+
+#cinco h1,{
+    width: 20vw;
+    font-size: 28px;
+}
+
+#imagem1 img {
+    width: 338px;
+}
+
+#imagem2 img {
+    width: 338px;
+}
+
+
+/*FIM DO PEDAÇO 3*/
+
+/*INICIO DO PEDAÇO 4*/
+
+#pedaco-4 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left:18vw;
+    align-items:center;
+    gap:160px;
+}
+
+#seis {
+    padding:107px;
+    padding-bottom:0
+    
+}
+
+#pedaco-4 .tituloz {
+    width: 30vw;
+    
+}
+
+#seis p {
+    width:25vw;
+}
+
+
+#sign {
+    display:flex;
+    flex-direction: row;
+    color: #2F70FE;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#seta {
+    padding-left: 8px;
+}
+
+/*FIM DO PEDAÇO 4*/
+
+/*INICIO DO PEDACO 5*/
+
+
+#pedaco-5 {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    padding-top: 91px;
+    gap: 15vw;
+}
+
+#pedaco-5 .tituloz {
+    width: 70%;
+}
+
+br {
+    display:none;
+}
+
+#seis, #sete, #oito{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    width:30vw;
+    
+}
+
+#seteum .texticon,{
+    width: 80%;
+}
+
+/*FIM DO PEDACO 5*/
+
+/*INICIO PEDAÇO 6*/
+
+#pedaco-6 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100%;
+    padding: 17vh 0;
+}
+   
+
+#oitoum .tituloz
+ {
+    width:80%;
+}
+
+#oitoum .texticon {
+    width: 80%;
+}
+
+/*fim do pedaço 6*/
+
+/*FOOTER */
+
+footer {
+    background-color: black;
+    width: 100%;
+    color:white;  
+    display:flex;
+    flex-direction: column;
+}
+
+.linhafooter, .linhafooter2 {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    flex-wrap: wrap;
+
+}
+
+
+#dados {
+    gap: 160px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#infos {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#infos h1 {
+    font-size:16px;
+    padding-bottom: 14px;;
+}
+
+#infos p,#data p {
+    font-size:14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#data {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0;
+
+}
+
+/* Responsividade mobile */
+
+@media screen and (min-width:320px) and (max-width:760px) {
+    /*HEADER + MENU HAMBURGUER*/
+
+    #btn-mobile {
+        display:flex;
+    }
+
+    nav {
+        display: flex;
+        justify-content: left;
+    }
+
+
+    #contentheader{
+        display:flex;
+    }
+
+    #menu {
+
+       display:none;
+       position: absolute;
+       width:100%;
+       top: 15vh;
+       font-size: 36px;
+       text-align: center;
+       height:85vh;
+       right:0px;
+       background-color: white;
+       padding: 15vh 0;
+       z-index: 1000; /* sobrepor a qualquer elemento da tl*/
+
+    }
+
+    #nav.active #menu {
+        display:block
+    }
+
+    #menu a {
+        display:flex;
+        flex-direction: column;
+        font-size: 36px;
+
+    }
+
+    .botaoheader a {
+       border: none;
+    }
+
+    #btn-mobile {
+        display:flex;
+        align-items: center;
+        padding: .5rem 1rem;
+        font-size:1rem;
+        cursor:pointer;
+        gap: .5rem;
+        background:transparent;
+          
+    }
+
+
+    #hamburguer {
+        display: block;
+        color: black;
+        border-top: 2px solid;
+        width: 1.5rem;
+        position: relative;
+    }
+    
+      #hamburguer::after,
+      #hamburguer::before {
+        content: '';
+        display: block;
+        width: 1.5rem;
+        height: 2px;
+        background: currentColor;
+        margin-top: 0.5rem;
+        transition: 0.3s;
+        position: relative;
+    }
+    
+      #nav.active #hamburguer {
+        border-top-color: transparent;
+      }
+    
+      #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    
+      #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -10px;
+    }
+
+    /*FIM HEADER MENU HAMBURGUER*/
+
+    /*PEDAÇO 1*/
+
+    #pedaco-1, #pedaco-2
+    #pedaco-3, #pedaco-4
+    #pedaco-5, #pedaco-6 {
+        width: 100%  
+    }
+
+    #pedaco-1 {
+        gap:0;
+    }
+
+    #um {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        gap:17px;
+        
+    }
+
+    #pri {
+        line-height: 65px;
+        width: 95%;
+        padding: 51px 0 0 0;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #seg {
+        text-align: center;
+        width:95%;
+    }
+
+    #dois {
+        padding: 25px 0 51px 0;
+        
+    }
+
+    #dois button {
+        width: 166px;
+        height: 51px;
+
+    }
+
+    #dois img {
+        display:none;
+    }
+
+
+     /*FIM DO PEDAÇO 1*/
+
+
+     /*PEDAÇO 2 */
+
+     #pedaco-2 {
+        height:max-content;
+        flex-direction: column;
+        padding:38px 0px;
+     }
+
+     #tres {
+        display: flex;
+        font-size:30px;
+        padding: 0;
+        width:100%;
+     }
+
+     #quatro{
+        flex-direction: column;
+        gap: 50px;
+     }
+
+     #quatro .texticon {
+        text-align: center;
+        width:65%;
+     }
+
+    /* FIM DO PEDAÇO 2 */
+
+
+    /*PEDAÇO 3 */
+
+    #pedaco-3 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding:0;
+    }
+
+    #cinco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        width:100%;
+
+    }
+
+    #cinco .tituloz {
+        width:95%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #cinco .texticon {
+        text-align: center;
+        padding: 24px 0 63px 0;
+    }
+
+    /* FIM DO PEDAÇO 3 */
+
+
+    /*PEDAÇO 4*/
+
+    #pedaco-4 {
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        gap:0;
+    }
+
+    #seis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        gap:0;
+        width:100%;
+
+    }
+
+    #seisum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #seisum .tituloz {
+        width:100%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #seis .texticon {
+        width:90%;
+        text-align: center;
+        padding: 24px 0;
+    }
+
+    /*FIM DO PEDAÇO 4*/
+
+
+    /* PEDAÇO 5 */
+
+    #pedaco-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:0;
+    }
+
+    #sete {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        width:100%;
+   
+    }
+
+    #seteum {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #seteum .tituloz {
+        width:90%;
+        font-size: 28px;
+    }
+
+    br {
+        display:block;
+    }
+    
+
+    #sete .texticon {
+        width:85%;
+        text-align: center;
+    }
+
+
+    /* FIM PEDAÇO 5 */
+
+
+    /*PEDAÇO 6*/
+
+    #pedaco-6 {
+        flex-direction: column;
+        align-items: center;
+        padding:12vh 0;
+        gap:0;
+    }
+
+    #oito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        width:100%;
+
+    }
+
+    #oitoum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #oitoum .tituloz {
+        width:100%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #oito .texticon {
+        width:90%;
+        text-align: center;
+    }
+
+
+
+    /*FOOTER*/
+
+    footer {
+        height: auto;
+    }
+
+    #dados {
+        flex-direction: column;
+        align-items: center;
+        gap:62px;
+
+    }
+
+    .linhafooter {
+        display:flex;
+        flex-direction: row;
+        gap:83px;
+
+    }
+
+    /*Coloquei 2 classes pra ver se melhorava algo*/
+
+    .linhafooter2 {
+        flex-direction: row;
+        gap:60px
+    
+    }
+}
+
+/*responsividade tablet */
+
+@media (min-width:767px) and (max-width:900px) {
+    #contentheader {
+        width: 100%;
+        padding: 15px;
+        justify-content: space-around;
+        
+    }
+
+    #menu {
+        gap:0px;
+        font-size: 16px;
+    }
+
+    ul a {
+        padding:20px;
+        
+    }
+
+    .botaoheader a {
+        display:block;
+        color:#2F70FE;
+        padding: 5px 10px;
+        border: 0.5px solid #2F70FE;
+    
+    }
+
+    /*pedaço 1*/
+
+    #um {
+        gap:15px;
+        padding-top:30px;
+    
+    }
+
+    #pri, #seg {
+        width:80%;
+    }
+
+    #pri {
+        padding-top:51px;
+    }
+
+    #seg {
+        font-weight: 500;
+    }
+        
+
+    #dois img {
+        display:none;
+    
+    }
+
+    #dois button {
+        width: max-content;
+        padding: 10px 40px;
+        font-size:20px;
+    }
+
+    #dois a {
+        padding: 30px; 
+    }
+
+    /*fim do pedaço 1 */
+
+    /*pedaço 2*/
+
+    #pedaco-2 {
+        height: max-content;
+        padding-bottom: 50px;
+        gap: 5px;
+    }
+
+    #tres {
+        font-size:35px;
+        padding:50px 0;
+       
+    }
+
+    #tres h1 {
+        font-weight: 500;
+    }
+
+    #quatro {
+        width:100%;
+        flex-direction: row-reverse;
+    }
+
+     /*fim do pedaço 2*/
+
+
+    /*pedaço 3*/
+
+    #cinco {
+        padding:70px;
+        width:100%
+    }
+
+    #pedaco-3 .tituloz {
+        width:30vw;;
+    }
+
+    /*fim do pedaço 3*/
+
+    /*pedaço 4 */
+
+    #pedaco-4  {
+        padding:0;
+        gap: 0;
+    }
+
+    #pedaco-4 .tituloz {
+        width:100%;
+    }
+
+    #seis p {
+        width:40vw;
+        text-align: start;
+    }
+
+    #imagem2 {
+        display: flex;
+        padding:50px 0;
+        
+    }
+
+
+    /*fim do pedaço 4*/
+
+
+    /*pedaço 5*/
+
+    #pedaco-5 .tituloz, #pedaco-5 .texticon {
+        width: 100%;
+        text-align:justify;
+}
+    #sete {
+        width:40vw;
+}
+
+    /*fim do pedaço 5*/
+
+
+    /*pedaço 6*/
+
+    #pedaco-6 .tituloz, #pedaco-6 .texticon {
+        width: 100%;
+        text-align:start;
+}
+    #oito {
+        width:40vw;
+}
+
+
+    /*footer*/
+
+    #dados {
+        gap:22px;
+        
+    }
+
+    .linhafooter, .linhafooter2 {
+        gap:60px;
+     
+    }
+
+}
+
+
+
+
+
+
+
+
